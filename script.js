@@ -7,11 +7,11 @@ let clickCount = 0;  // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
-    "你确定？",
+    "你确定不是？",
     "你再想想?",
     "你再想想!",
-    "是我",
-    "差不多得了（流汗黄豆）"
+    "赶紧点了吧",
+    "真的是她"
 ];
 
 // No 按钮点击事件
@@ -45,12 +45,12 @@ noButton.addEventListener("click", function() {
 
 });
 
-// Yes 按钮点击后，进入表白成功页面 ( >᎑<)♡︎ᐝ
+// Yes 按钮点击后，进入表白成功页面
 yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
-            <h1 class="yes-text">!!!没错，就是好兄弟!!</h1>
-            <img src="images/tazi.jpg" alt="拥抱" class="yes-image">
+            <h1 class="yes-text">!!!没错，就是萌萌 ( >᎑<)♡︎ᐝ!!</h1>
+            <img src="images/hug.png" alt="拥抱" class="yes-image">
         </div>
     `;
 
