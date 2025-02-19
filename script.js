@@ -45,11 +45,11 @@ noButton.addEventListener("click", function() {
 
 });
 
-// Yes 按钮点击后，进入表白成功页面
+// Yes 按钮点击后，进入表白成功页面 ( >᎑<)♡︎ᐝ
 yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
-            <h1 class="yes-text">!!!没错，就是好兄弟!! ( >᎑<)♡︎ᐝ</h1>
+            <h1 class="yes-text">!!!没错，就是好兄弟!!</h1>
             <img src="images/tazi.jpg" alt="拥抱" class="yes-image">
         </div>
     `;
